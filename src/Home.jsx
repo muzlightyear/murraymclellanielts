@@ -10,7 +10,7 @@ function Home() {
             <div className="text">
             <h2>Ace Yout Test With an IELTS Preparation Expert</h2>
             <a>Get personalised IELTS preparation courses; study IELTS with an expert.</a>
-            <button>Book a Free Consulation</button>
+            <button className="consultationButton">Book a Free Consulation</button>
             </div>
         </div>
   )

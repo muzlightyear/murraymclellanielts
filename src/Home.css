@@ -25,14 +25,14 @@ h2 {
     font-style: bold;
 }
 
-button {
+.consultationButton {
     padding: 1em;
     border-radius: 40px;
     color: white;
     background-color: grey;
 }
 
-button:hover {
+.consultationButton:hover {
     color: grey;
     background-color: rgb(204, 204, 204);
 }
