@@ -1,6 +1,6 @@
 .home {
     display:flex;
-    flex-direction: row;
+    flex-direction:rơw;
     width: 100%;
     height: 100%;
     background: white;
@@ -9,30 +9,54 @@
 .text {
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items:center;
+    justify-content: top;
+    align-items:left;
     color: black;
     padding: 3em;
 }
 
 .portraitImg {
- width:20%;
- height: 20%;  
+    transform: scaleX(-1);
+    width:20%;
+    height: 20%;  
+    margin-left:2em;
 }
 
 h2 {
     color: black;
     font-style: bold;
+    font-size: 2.5rem;
+    align-items: right;
+    margin-left:0;
 }
 
-.consultationButton {
+.subheading {
+    margin-top:1.5rem;
+    font-size:2rem;
+}
+
+.consultationLink {
+    height:0;
+    line-height:0;
+    text-align:center;
+    max-width:100%;
+    font-size:1.4rem;
     padding: 1em;
     border-radius: 40px;
-    color: white;
-    background-color: grey;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-right-style: dashed;
+    border-left-style: dashed;
 }
 
-.consultationButton:hover {
-    color: grey;
-    background-color: rgb(204, 204, 204);
+.consultationLink:hover {
+    color: black;
+    background-color: rgb(228, 225, 225);
+}
+
+.consultationLink:active{
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-top-color:black
 }
