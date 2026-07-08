@@ -1,3 +1,27 @@
 .feedback-container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feedback-block {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 20%;
+    max-height: 10%;
+    border-style:solid;
+    border-color: black;
+    background-color: #FF5757;
+    color: white;
+    gap: 2em;
+}
+
+.header-text {
+    font-style: bold;
+    border-style:solid;
+    align-self: center;
+    margin-top: 2em;
+    font-size: 2em;
 }
