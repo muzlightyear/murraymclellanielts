@@ -1,5 +1,6 @@
 import React from 'react';
 import { supabase } from './supabaseClient';
+import './App.css'
 
 function IELTSSpeaking() {
 
@@ -11,9 +12,9 @@ function IELTSSpeaking() {
 
     return (
         <div className="ieltsspeaking-container">
-            <a>IELTS Speaking Sample Test 1</a>
+            <a className="test-heading" >IELTS Speaking Sample Test 1</a>
             <iframe src={pdfUrl} width="100%" height="600px" />
-            <a>IELTS Speaking Sample Test 2</a>
+            <a className="test-heading">IELTS Speaking Sample Test 2</a>
         </div>
     )
 }

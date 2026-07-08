@@ -5,6 +5,8 @@
     border-bottom-style: solid;
     margin-bottom: 2em;
     overflow:hidden;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar-content {
@@ -28,15 +30,13 @@
     padding: 1.5em;
     min-height: 160px;
     align-content: center;
-    border-left-style: solid;
     cursor: pointer;
     text-decoration: none;
     color: black;
 }
 
 .nav-link:hover{
-    border-color: black;
-    background-color: #e5e5e5;
+    color: #FF5757;
     transform: perspective(1px) translateZ(0);
     transition-duration: 0.3s;
     transform-origin: 0 100%;

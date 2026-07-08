@@ -53,3 +53,8 @@ font-size: 1.3em;
 .vietnam-flag-png {
   max-width: 50%;
 }
+
+.test-heading {
+  font-size: 2em;
+  font-style: bold;
+}
