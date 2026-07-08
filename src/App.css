@@ -2,3 +2,54 @@
   padding: 0;
   margin: 0;
 }
+
+h1 {
+  justify-self: center;
+  align-self: center;
+}
+
+.about-container {
+  display:flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.about-paragraph {
+  align-self: center;
+  max-width: 70%;
+  font-size: 1.3em;
+}
+
+.ielts-expert-container {
+  padding-top: 2em;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certificateImg {
+  max-width: 80%;
+}
+
+li {
+list-style-position: inside;
+}
+
+.bilingual-description-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  max-width: 70%;
+}
+
+.bilingual-description {
+align-self: center;
+padding-left: 2em;
+font-size: 1.3em;
+}
+
+.vietnam-flag-png {
+  max-width: 50%;
+}
