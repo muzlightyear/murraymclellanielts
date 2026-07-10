@@ -3,7 +3,6 @@
     display:flex;
     flex-direction: row;
     border-bottom-style: solid;
-    margin-bottom: 2em;
     overflow:hidden;
     align-items: center;
     justify-content: center;
