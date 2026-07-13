@@ -1,4 +1,4 @@
-import React from 'react'
+import { React, useState } from 'react'
 import { Link } from "react-router";
 import './Navbar.css'
 import logo from './assets/logo.png'
@@ -10,6 +10,8 @@ import ISpeaking from './IELTSSpeaking.jsx'
 import Feedback from './Feedback.jsx'
 
 function Navbar() {
+    const [isOpen, setIOpen] = useState(false);
+
     return (
         <div className="navbar">
             <img className="logo" src={logo} alt="Murray Mclellan IELTS logo."></img>
