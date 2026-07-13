@@ -41,9 +41,12 @@ list-style-position: inside;
 
 .filler-image{
   max-height: auto;
-  max-width: 30%;
+  max-width: 40%;
 }
 
+.section-title {
+  justify-self: center;
+}
 .ielts-expert-images {
   padding-top: 2em;
   display:flex;

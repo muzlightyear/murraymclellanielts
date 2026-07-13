@@ -32,7 +32,7 @@ function About() {
                 <img className ="filler-image" src={meIDP}></img>
 
             <div className="ielts-expert-container">
-                <h1 className="ielts-expert-title">IELTS Expert</h1>
+                <h1 className="section-title">IELTS Expert</h1>
                     <div className="ielts-expert-images">
                 <img className="certificateImg" src={bccert}></img>
                 <img className="certificateImg" src={idp2024}></img>
@@ -44,7 +44,7 @@ function About() {
 
             
             <div className="bilingual-description-container">
-            <h1>Bilingual</h1>
+            <h1 className="section-title">Bilingual</h1>
                 <div className="bilingual-description">
                 <img className="flag-png" src={vnFlag}></img>
                     <div className="bilingual-description-text-overlay">
