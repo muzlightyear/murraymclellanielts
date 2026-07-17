@@ -14,7 +14,6 @@ function IELTSSpeaking() {
         <div className="ieltsspeaking-container">
             <a className="test-heading" >IELTS Speaking Sample Test 1</a>
             <iframe src={pdfUrl} width="100%" height="600px" />
-            <a className="test-heading">IELTS Speaking Sample Test 2</a>
         </div>
     )
 }
